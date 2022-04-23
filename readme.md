@@ -1,15 +1,35 @@
-Requisitos:
-  Docker
-  Docker-compose
-  AWS CLI
+
+# Config Docker
+
+Rodar aplicação em container Docker localmente
 
 
-Comandos:
-  Subir aplicação no docker local:
-    => docker-compose up
-  Ver quais containers estão rodando:
-    => docker ps
+## Requisitos
 
-  
+ - [Docker](https://docs.docker.com/get-docker/)
+ - [Docker-compose](https://docs.docker.com/compose/install/)
 
-Link tutorial: https://www.youtube.com/watch?v=kqBCHYf_adA&t=794s
+
+## Comandos
+
+Para subir a aplicação pro docker localmente
+
+```bash
+  docker-compose up
+```
+Para listar aplicações rodando localmente
+
+```bash
+  docker ps
+```
+
+
+## Apêndice
+
+Coloque qualquer informação adicional aqui
+
+
+## Tutorial
+
+[Vídeo tutorial completo](https://www.youtube.com/watch?v=kqBCHYf_adA&t=794s)
+
